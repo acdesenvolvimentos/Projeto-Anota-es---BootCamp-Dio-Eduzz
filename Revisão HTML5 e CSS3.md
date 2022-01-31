@@ -7,6 +7,7 @@
 
 * A estrutura básica do html5 é formada da seguinte maneira:
 
+```
 <<!DOCTYPE html>>                      || Código utilizado para indicar o uso do HTML5
 <html>                                 || Tag que simboliza a abertura do código HTML  
 <header>                               || Tag para abertura do cabeçalho 
@@ -26,12 +27,16 @@
 </html>                                || Tag que simboliza o fechamento do código HTML
 
 
+```
+
+
 ### CSS3
 
 * Já o CSS é o responsávél por deixar a página mais bonita e amigavél através do uso de estilos, é com ele que podemos inserir cores, bordas e alinhamnetos entre outras possiveis alterações para tornar a página mais bonita. Para executar o cógo css, poder ser feito diretamente na estrutura HTML como um atributo a uma tag, ou pode ser criado um arquivo externo contendo toda a folha de estilo de cada tag como o desenvolvedor preferir.
 
 segue abaixo um exemplo de código css:
 
+```
 #cabecalho_principal {                                       
     background-color: rgb(50, 126, 189);
     border-bottom: 10px solid rgb(5, 46, 100) ;
@@ -42,6 +47,7 @@ segue abaixo um exemplo de código css:
     margin: 5px;
 }
 
+```
 * Os primeiro exemplo de código altera as propriedades do backgroud e da borda inferior da tag com id cabecalho _principal, já o segundo altera as propriedades da borda e margem da classe imagens.
 
 * Com essas duas ferramentas já é possivél criar páginas estáticas completas, todavia para uma maior interatividade será necessário a adição de mais ferramentas. 
